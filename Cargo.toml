@@ -1,0 +1,10 @@
+[package]
+name = "scuti"
+version = "0.1.0"
+authors = ["Daniel Cook <daniel@danielcook.me>"]
+
+[dependencies]
+gl = "0.6.0"
+
+[dependencies.glfw]
+git = "https://github.com/bjz/glfw-rs.git"
