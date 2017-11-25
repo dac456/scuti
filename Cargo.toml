@@ -2,7 +2,15 @@
 name = "scuti"
 version = "0.1.0"
 authors = ["Daniel Cook <daniel@danielcook.me>"]
+build = "build.rs"
 
 [dependencies]
 gl = "0.6.0"
-glutin = "*"
+#glutin = "*"
+
+[dependencies.rust-assimp]
+git = "https://github.com/can3p/rust-assimp-fix.git"
+
+[dependencies.glfw]
+git = "https://github.com/bjz/glfw-rs.git"
+default-features = false
